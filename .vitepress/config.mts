@@ -25,7 +25,7 @@ export default defineConfig({
         text: 'Developers guide',
         items: [
           { text: 'Introduction', link: '/dev-guide/introduction' },
-          { text: 'Launching the project', link: '/dev-guide/launching_project' },
+          { text: 'Launching AgriDot', link: '/dev-guide/launching_project' },
         ],
       },
       {
