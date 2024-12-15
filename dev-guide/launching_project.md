@@ -29,6 +29,26 @@ EXPO_PUBLIC_SERVER_URL=url
 
 #Encryption phrase for communication with Backend (Needs to be same on BE)
 EXPO_PUBLIC_ENCRYPT_PHRASE=password
+
+#Blockchain wss endpoint
+EXPO_PUBLIC_WS_ENDPOINT=wss://kusama-asset-hub-rpc.polkadot.io
+
+#App donation recieve address
+EXPO_PUBLIC_RECIPIENT_ADDRESS=addr
+
+#App guide cellection id
+EXPO_PUBLIC_GUIDE_COLLECTION_ID=1
+
+#IPFS gatewau url
+EXPO_PUBLIC_GATEWAY_URL=flk-ipfs.xyz
+
+#Config for Firebase
+EXPO_PUBLIC_FIREBASE_API_KEY=key
+EXPO_PUBLIC_AUTH_DOMAIN=domain
+EXPO_PUBLIC_PROJECT_ID=project_id
+EXPO_PUBLIC_STORAGE_BUCKET=bucket
+EXPO_PUBLIC_MESSAGE_SENDER_ID=sender_id
+EXPO_PUBLIC_APP_ID=app_id
 ```
 
 The [backend](https://github.com/kacena123/agridot-backend) requires following `.env`:
@@ -59,7 +79,10 @@ PORT: string;
 PINATA_JWT=string
 
 # Pinata gateway url for pest and guide data uploads
-GATEWAY_URL=mypinata.cloud
+PINATA_GATEWAY_URL=mypinata.cloud
+
+#IPFS gate url
+IPFS_GATEWAY_URL=flk-ipfs.xyz
 ```
 
 ## Terminal
