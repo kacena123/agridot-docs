@@ -37,4 +37,4 @@ Unlike traditional Web2 agricultural apps, AgriDot offers:
 
 ### Video guide explaining how AgriDot works 📹.
 
-[VIDEO]
+[![VIDEO](../images/Thumbnail.png)](https://www.youtube.com/watch?v=3khnW3acfJk)
